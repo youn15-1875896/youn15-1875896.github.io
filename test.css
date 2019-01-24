@@ -3,10 +3,16 @@ body{
 }
 
 p{
-
+	font-style: bold;
+	color: white;
+	font-family: "Arial";
 }
 
 h3{
+	color: #FFBC00;
+	font-size: 40px;
+	font-family: "Passion One"
+	margin-bottom:0px;
 
 }
 
