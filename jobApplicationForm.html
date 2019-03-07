@@ -1,34 +1,16 @@
 <!DOCTYPE html>
 <html>
-	<style>
-.button {
-  background-color: white;
-  border: 2px solid #555555;
-  color: black;
-  padding: 8px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-  margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
-.button:hover {
-  background-color: #555555;
-  color: white;
-</style>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Job Application</title>
+	<title>Seattle Regional Job App</title>
 	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 <div class="container">
 
 <h2>Seattle Regional Hospital Job Application</h2>
+<link rel="stylesheet" type="text/css" href="jobApplicationForm.css" />
 <p>&nbsp;</p>
 
 <form role="form" action="http://gclass.alexburner.com/formtest.php" method="post">
@@ -152,54 +134,20 @@
 
 	<p>&nbsp;</p>
 
-	<fieldset class="form-horizontal" >
-		<legend>Additional Information</legend>
-		<div class="form-group">
-			<label class="col-sm-3 control-label">LinkedIn Profile Link(optional)</label>
-			<div class="col-sm-9">
-				<input class="form-control" type="text" name="name" placeholder="Add your profile link here">
-			</div>
-		</div>
-	</fieldset>
-
-	<p>&nbsp;</p>
-
-	<fieldset class="form-horizontal" >
-		<legend>Resume</legend>
-		<div class="form-group">
-	<P>If you have a resume, please upload it here. If you do not have a resume, please enter details about your education and work history in the relevant sections below.</P>
-	
-	<p>Resume (max size : 5 MB)</p>
-	
-
-	<button class="button">My Computer</button>
-	<button class="button">Google Drive</button>
-	<button class="button">Dropbox</button>
-	<button class="button">OneDrive</button>
-			</div>
-		</div>
-	</fieldset>
-
-	<p>&nbsp;</p>
-
-	<fieldset class="form-horizontal" >
-		<legend>Additional Questions</legend>
-		<div class="form-group">
-			<label class="control-label">Are you legally authorized to work in the United States?</label>
-			<div class="col-sm-9">
-				<select class="form-control" name="yes or no">
-					<option value="" selected="true">-Make a Selection-</option>
-					<option value="Yes">Yes</option>
-					<option value="No">No</option>
-				</select>
-			</div>
-		</div>
-	</fieldset>
-
-	<p>&nbsp;</p>
-	
 	<fieldset>
-		<legend>Availability</legend>
+		<legend>Additional Questions</legend>
+		<div class="form-group row">
+			<label class="col-sm-12 control-label">Are you legally able to be employed in this country?</label>
+			<div class="col-sm-offset-1 col-sm-11">
+				<div class="col-sm-9">
+					<select class="form-control" name="yes or no">
+						<option value="" selected="true">-Make a Selection-</option>
+						<option value="Yes">Yes</option>
+						<option value="No">No</option>
+					</select>
+				</div>
+			</div>
+		</div>
 		<div class="form-group row">
 			<label class="col-sm-12 control-label">What type of position are you seeking? (check all that apply)</label>
 			<div class="col-sm-offset-1 col-sm-11">
@@ -273,16 +221,37 @@
 	<fieldset>
 		<legend>Personal Statement</legend>
 		<div class="form-group">
-			<label class="control-label">Please tell us about your career goal and why choose Seattle Regional Hospital?</label>
+			<label class="control-label">Why do you deserve this job?</label>
 			<textarea class="form-control" name="deserve" rows="6"></textarea>
 		</div>
 		<div class="form-group">
-			<label class="control-label">Tell us about yourself (additional to your resume.)</label>
+			<label class="control-label">Describe a recent project</label>
 			<textarea class="form-control" name="project" rows="6"></textarea>
 		</div>
 	</fieldset>
 
-	<p>&nbsp;</p>
+    <p>&nbsp;</p>
+</fieldset>
+
+<p>&nbsp;</p>
+
+<fieldset class="form-horizontal" >
+    <legend>Resume</legend>
+    <div class="form-group">
+    <P>If you have a resume, please upload it here. If you do not have a resume, please enter details about your education and work history in the relevant sections below.</P>
+
+    <p>Resume (max size : 5 MB)</p>
+
+
+    <button class="button">My Computer</button>
+    <button class="button">Google Drive</button>
+    <button class="button">Dropbox</button>
+    <button class="button">OneDrive</button>
+           </div>
+     </div>
+    </fieldset>
+
+    <p>&nbsp;</p>
 
 	<input class="btn btn-primary btn-lg" type="submit" value="Submit form">
 

@@ -1,0 +1,96 @@
+body{
+	background-image: url('img.gif');
+	background-size: cover;
+}
+tr, th, td {
+	text-align: left;
+	padding: 8px;
+	background-color: yellowgreen;
+	border: 4px solid pink;
+  }
+  .button {
+	background-color: white;
+	border: 2px solid #555555;
+	color: black;
+	padding: 8px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	margin: 4px 2px;
+	  -webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	cursor: pointer;
+  }
+  .button:hover {
+	background-color: #555555;
+	color: white;}
+	
+h2{
+	font-style: bold;
+	color: Purple;
+	font-family: "Passion One";
+}
+
+h3{
+	color: #FFBC00;
+	font-size: 40px;
+	font-family: "Passion One"
+	margin-bottom:0px;
+
+}
+
+
+#Header{
+		width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;
+		border:solid 8px blue;
+		text-align: center;
+		background-color: #8E41D5;
+}
+
+#Header h1{ font-size: 60px;
+			font-family: "Passion One";
+			color: #FFBC00;
+			font-weight: bold;
+			background-color: #8E41D5;
+
+}
+
+
+
+#LeftNav h3{
+	color: #FFBC00;
+	font-size: 40px;
+	font-family: "Passion One"
+	margin-bottom:0px;
+	background-color: #8E41D5;
+}
+
+#Content{
+		width: 700px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;
+		border:solid 8px white;
+		text-align: center;
+		padding-left: 15px;
+		background-color: #8E41D5;
+}
+
+#Footer{
+		border:solid 8px pink;
+		text-align: center;
+		background-color: #8E41D5;
+}
+ul{
+	list-style-type: none;
+	padding-left: 0px;
+}
+a{
+	color: green;
+	font-weight: bold;
+	font-size: 24px;
+}
